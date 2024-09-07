@@ -71,9 +71,9 @@ header {
   padding: 5px;
   margin-left: 10px;
   margin-right: 10px;
-  color: #3f0949;
+  color: #1f424f;
 }
-body {
+.bodyy {
   background-image: url("body.png");
   display: flex;
   flex-direction: column;
@@ -81,12 +81,16 @@ body {
   width: 50%;
   margin-left: 5%;
   padding: 25px;
-  color: #3f0949;
+  color: #1f424f;
 }
 nav {
   display: flex;
   flex-direction: row;
   justify-content: space-around;
-  background-color: #b9979f;
+  background-color: #ff5e986b;
   border-radius: 50px;
+  box-shadow: 3px 3px 3px 3px #1f424f;
+}
+p {
+  text-align: justify;
 }
