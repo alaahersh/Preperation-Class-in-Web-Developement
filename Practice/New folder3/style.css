@@ -1,0 +1,219 @@
+html, body {
+            margin: 0;
+            padding: 0;
+            height: 100%;
+        }
+
+nav {
+    left: 0;
+    top: 0;
+    width: 100%;
+    height: 5%;
+    padding: 15px;
+    background-color: rgb(95, 99, 104);
+}
+
+.home {
+  display: flex;
+  flex-direction: row;
+  justify-content: space-between;
+  margin: 30px;
+  margin: 30px;
+}
+
+.head {
+  display: flex;
+  flex-direction: row;
+  justify-content: space-between;
+  width: 84%;
+}
+
+li {
+      list-style-type: none;
+      display: flex;
+      flex-direction: column;
+}
+
+.first-li {
+  background-color: rgb(95, 99, 104);
+}
+
+.main-div {
+  width: 90%;
+  height: 700%;
+  background-color: rgb(95, 99, 104);
+  margin-left: 5px;
+}
+
+.list {
+  display: flex;
+  flex-direction: row;
+  justify-content: flex-start;
+}
+
+input {
+      appearance: none;
+      width: 70px;
+      height: 30px;
+      background-color: rgb(189, 193, 198);
+      border: 2px solid rgb(189, 193, 198)
+      position: relative;
+}
+
+input:checked {
+      background-color: rgb(95, 99, 104);
+      border: 2px solid rgb(95, 99, 104);
+}
+
+.box1 {
+  width: 100px;
+  height: 100px;
+  background-color: rgb(95, 99, 104);
+  margin: 6px;
+}
+
+.line1, .line2, .line3 {
+  width: 100px;
+  height: 8px;
+  background-color: rgb(189, 193, 198);
+  margin: 5px;
+}
+
+.line2 {
+  width: 60px;
+}
+
+.line3 {
+  width: 30px;
+}
+
+.boxes {
+  display: flex;
+  flex-direction: column;
+}
+
+.inner-lines {
+  display: flex;
+}
+
+.rows {
+  display: flex;
+  flex-direction: column;
+  justify-content:space-between;
+  margin-right:89px;
+  margin-bottom: 20px;
+}
+
+.row {
+  display: flex;
+  flex-direction: row;
+  justify-content:space-between;
+}
+
+.three-boxes {
+  display: flex;
+  flex-direction: row;
+  justify-content: flex-end;
+}
+
+.small {
+  width: 25px;
+  height: 25px;
+  background-color: rgb(95, 99, 104);
+  margin: 2px;
+}
+
+.box {
+  width: 110px;
+  height: 80px;
+  background-color: rgb(189, 193, 198);
+}
+
+.line {
+  width: 180px;
+  height: 7px;
+  background-color: rgb(189, 193, 198);
+  margin: 5px;
+}
+
+.box-lines {
+  display: flex;
+  flex-direction: row;
+  justify-content: space-between;
+  width: 100%;
+  margin: 9px;
+}
+
+.lines {
+  display: flex;
+  flex-direction: column;
+  margin: -5px;
+  padding: 2px;
+}
+
+.box-line {
+  display: flex;
+  flex-direction: column;
+  justify-content: space-around;
+  padding: 2px;
+  margin: 9px;
+}
+
+.long-line {
+  width: 100%;
+  height: 5px;
+  background-color: rgb(189, 193, 198);
+  padding: 4px;
+  margin: 9px;
+}
+
+.side-box {
+  width: 100%;
+  height: 200px;
+  background-color: rgb(95 99 104);
+  padding: 4px;
+  margin: 9px;
+}
+.triangle {
+  width: 100%;
+  height: 30px;
+  background-color: rgb(95 99 104);
+  padding: 4px;
+  margin: 9px;
+}
+
+hr {
+  border: 1px solid rgb(95, 99, 104);
+  width: 100%;
+  margin-left: 10px;
+}
+
+.side-blocks {
+  display: flex;
+  flex-direction: column;
+  justify-content: space-between;
+}
+
+footer {
+    left: 0;
+    bottom: 0;
+    width: 100%;
+    height: 1%;
+    padding: 15px;
+    background-color: rgb(189, 193, 198);
+}
+
+.second {
+  display: flex;
+  flex-direction: column;
+  justify-content: space-evenly;
+  width: 30%;
+}
+
+.first {
+  display: flex;
+  flex-direction: column;
+  justify-content: space-between;
+  width: 70%;
+  margin: 10px 25px 10px 25px;
+}
